@@ -9,6 +9,7 @@ root.resizable(False, False)
 
 task_list = []
 
+
 try:
     with open("tasks.json", "r") as outfile:
         json_object = json.load(outfile)
